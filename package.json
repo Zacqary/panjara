@@ -1,0 +1,23 @@
+{
+  "name": "panjara",
+  "version": "1.0.0",
+  "description": "Give your modules a memory by safely assigning globals scoped to a module ID.",
+  "main": "build/panjara.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/panjara.js -o build/panjara.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zacqary/panjara.git"
+  },
+  "author": "Zacqary Adam Xeper",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zacqary/panjara/issues"
+  },
+  "homepage": "https://github.com/Zacqary/panjara#readme",
+  "devDependencies": {
+    "babel": "^6.5.2"
+  }
+}
